@@ -1,0 +1,13 @@
+{
+  "description": "Mean WER by drift score quintile at the 10-minute budget",
+  "budget": "10min",
+  "quintiles": [
+    {"label":"Q1","mean_drift":0.04,"mean_wer":49.3,"delta_from_q1":0},
+    {"label":"Q2","mean_drift":0.09,"mean_wer":50.8,"delta_from_q1":1.5},
+    {"label":"Q3","mean_drift":0.18,"mean_wer":54.2,"delta_from_q1":4.9},
+    {"label":"Q4","mean_drift":0.37,"mean_wer":59.7,"delta_from_q1":10.4},
+    {"label":"Q5","mean_drift":0.58,"mean_wer":67.1,"delta_from_q1":17.8}
+  ],
+  "threshold_range": [0.2, 0.3],
+  "note": "Nonlinear relationship: modest degradation below 0.15, sharp acceleration above 0.3"
+}

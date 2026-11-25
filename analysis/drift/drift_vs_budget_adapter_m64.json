@@ -1,0 +1,15 @@
+{
+  "method": "adapter_m64",
+  "budgets": [
+    "10min",
+    "30min",
+    "1h",
+    "3h"
+  ],
+  "aggregate_drift_top6": [
+    0.0863,
+    0.0901,
+    0.0864,
+    0.0723
+  ]
+}

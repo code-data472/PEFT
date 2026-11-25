@@ -1,0 +1,15 @@
+{
+  "method": "full_ft",
+  "budgets": [
+    "10min",
+    "30min",
+    "1h",
+    "3h"
+  ],
+  "aggregate_drift_top6": [
+    0.5237,
+    0.371,
+    0.2505,
+    0.1867
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "method": "lora_r8",
+  "budgets": [
+    "10min",
+    "30min",
+    "1h",
+    "3h"
+  ],
+  "aggregate_drift_top6": [
+    0.0787,
+    0.084,
+    0.0742,
+    0.0638
+  ]
+}

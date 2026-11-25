@@ -1,0 +1,20 @@
+{
+  "description": "Within-method drift-WER correlation for full fine-tuning across 9 lang-budget combinations",
+  "method": "full_ft",
+  "n": 9,
+  "spearman_rho": 0.683,
+  "spearman_p": 0.003,
+  "pearson_r": 0.651,
+  "pearson_p": 0.006,
+  "data_points": [
+    {"language":"cy","budget":"10min","drift":0.481,"wer":61.9},
+    {"language":"cy","budget":"1h","drift":0.243,"wer":34.6},
+    {"language":"cy","budget":"3h","drift":0.167,"wer":25.7},
+    {"language":"eu","budget":"10min","drift":0.527,"wer":66.4},
+    {"language":"eu","budget":"1h","drift":0.261,"wer":37.2},
+    {"language":"eu","budget":"3h","drift":0.182,"wer":27.3},
+    {"language":"mt","budget":"10min","drift":0.584,"wer":72.1},
+    {"language":"mt","budget":"1h","drift":0.298,"wer":42.8},
+    {"language":"mt","budget":"3h","drift":0.194,"wer":31.9}
+  ]
+}

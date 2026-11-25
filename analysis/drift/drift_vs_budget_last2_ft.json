@@ -1,0 +1,15 @@
+{
+  "method": "last2_ft",
+  "budgets": [
+    "10min",
+    "30min",
+    "1h",
+    "3h"
+  ],
+  "aggregate_drift_top6": [
+    0.3189,
+    0.2838,
+    0.2299,
+    0.2192
+  ]
+}

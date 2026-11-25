@@ -1,0 +1,254 @@
+[
+  {
+    "model": "xlsr_300m",
+    "language": "cy",
+    "method": "full_ft",
+    "drift_top6": 0.598,
+    "wer": 59.9
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "cy",
+    "method": "lora_r8",
+    "drift_top6": 0.088,
+    "wer": 50.4
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "cy",
+    "method": "adapter_m64",
+    "drift_top6": 0.074,
+    "wer": 52.6
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "cy",
+    "method": "last2_ft",
+    "drift_top6": 0.245,
+    "wer": 50.8
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "eu",
+    "method": "full_ft",
+    "drift_top6": 0.618,
+    "wer": 71.7
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "eu",
+    "method": "lora_r8",
+    "drift_top6": 0.071,
+    "wer": 47.1
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "eu",
+    "method": "adapter_m64",
+    "drift_top6": 0.101,
+    "wer": 49.8
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "eu",
+    "method": "last2_ft",
+    "drift_top6": 0.224,
+    "wer": 50.3
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "mt",
+    "method": "full_ft",
+    "drift_top6": 0.585,
+    "wer": 64.8
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "mt",
+    "method": "lora_r8",
+    "drift_top6": 0.033,
+    "wer": 46.2
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "mt",
+    "method": "adapter_m64",
+    "drift_top6": 0.055,
+    "wer": 54.8
+  },
+  {
+    "model": "xlsr_300m",
+    "language": "mt",
+    "method": "last2_ft",
+    "drift_top6": 0.223,
+    "wer": 49.2
+  },
+  {
+    "model": "whisper_small",
+    "language": "cy",
+    "method": "full_ft",
+    "drift_top6": 0.604,
+    "wer": 53.3
+  },
+  {
+    "model": "whisper_small",
+    "language": "cy",
+    "method": "lora_r8",
+    "drift_top6": 0.102,
+    "wer": 46.5
+  },
+  {
+    "model": "whisper_small",
+    "language": "cy",
+    "method": "adapter_m64",
+    "drift_top6": 0.041,
+    "wer": 46.6
+  },
+  {
+    "model": "whisper_small",
+    "language": "cy",
+    "method": "last2_ft",
+    "drift_top6": 0.336,
+    "wer": 65.0
+  },
+  {
+    "model": "whisper_small",
+    "language": "eu",
+    "method": "full_ft",
+    "drift_top6": 0.611,
+    "wer": 58.5
+  },
+  {
+    "model": "whisper_small",
+    "language": "eu",
+    "method": "lora_r8",
+    "drift_top6": 0.103,
+    "wer": 45.9
+  },
+  {
+    "model": "whisper_small",
+    "language": "eu",
+    "method": "adapter_m64",
+    "drift_top6": 0.062,
+    "wer": 59.0
+  },
+  {
+    "model": "whisper_small",
+    "language": "eu",
+    "method": "last2_ft",
+    "drift_top6": 0.222,
+    "wer": 48.8
+  },
+  {
+    "model": "whisper_small",
+    "language": "mt",
+    "method": "full_ft",
+    "drift_top6": 0.468,
+    "wer": 49.6
+  },
+  {
+    "model": "whisper_small",
+    "language": "mt",
+    "method": "lora_r8",
+    "drift_top6": 0.05,
+    "wer": 53.1
+  },
+  {
+    "model": "whisper_small",
+    "language": "mt",
+    "method": "adapter_m64",
+    "drift_top6": 0.076,
+    "wer": 59.0
+  },
+  {
+    "model": "whisper_small",
+    "language": "mt",
+    "method": "last2_ft",
+    "drift_top6": 0.351,
+    "wer": 54.2
+  },
+  {
+    "model": "mms_300m",
+    "language": "cy",
+    "method": "full_ft",
+    "drift_top6": 0.48,
+    "wer": 58.1
+  },
+  {
+    "model": "mms_300m",
+    "language": "cy",
+    "method": "lora_r8",
+    "drift_top6": 0.095,
+    "wer": 47.1
+  },
+  {
+    "model": "mms_300m",
+    "language": "cy",
+    "method": "adapter_m64",
+    "drift_top6": 0.099,
+    "wer": 49.8
+  },
+  {
+    "model": "mms_300m",
+    "language": "cy",
+    "method": "last2_ft",
+    "drift_top6": 0.308,
+    "wer": 56.2
+  },
+  {
+    "model": "mms_300m",
+    "language": "eu",
+    "method": "full_ft",
+    "drift_top6": 0.488,
+    "wer": 71.8
+  },
+  {
+    "model": "mms_300m",
+    "language": "eu",
+    "method": "lora_r8",
+    "drift_top6": 0.114,
+    "wer": 44.7
+  },
+  {
+    "model": "mms_300m",
+    "language": "eu",
+    "method": "adapter_m64",
+    "drift_top6": 0.126,
+    "wer": 51.3
+  },
+  {
+    "model": "mms_300m",
+    "language": "eu",
+    "method": "last2_ft",
+    "drift_top6": 0.363,
+    "wer": 63.8
+  },
+  {
+    "model": "mms_300m",
+    "language": "mt",
+    "method": "full_ft",
+    "drift_top6": 0.518,
+    "wer": 49.5
+  },
+  {
+    "model": "mms_300m",
+    "language": "mt",
+    "method": "lora_r8",
+    "drift_top6": 0.06,
+    "wer": 52.3
+  },
+  {
+    "model": "mms_300m",
+    "language": "mt",
+    "method": "adapter_m64",
+    "drift_top6": 0.1,
+    "wer": 46.9
+  },
+  {
+    "model": "mms_300m",
+    "language": "mt",
+    "method": "last2_ft",
+    "drift_top6": 0.242,
+    "wer": 64.5
+  }
+]
