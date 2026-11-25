@@ -1,0 +1,10 @@
+{
+  "model_type": "wav2vec2",
+  "tokenizer_class": "Wav2Vec2CTCTokenizer",
+  "unk_token": "<unk>",
+  "pad_token": "<pad>",
+  "bos_token": "<s>",
+  "eos_token": "</s>",
+  "word_delimiter_token": "|",
+  "do_lower_case": true
+}
